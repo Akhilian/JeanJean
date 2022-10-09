@@ -1,0 +1,15 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+/* add fonts here */
+
+
+@font-face {
+  font-family: PlayfairDisplay;
+  font-weight: 400;
+  src: url('~assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('ttf'),
+  url('~assets/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('ttf');
+}
