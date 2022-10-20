@@ -1,27 +1,16 @@
 <template>
-  <section class="h-screen flex p-16">
-    <div class="grow flex flex-col bg-cover bg-center bg-fond-header">
-      <div class="m-auto">
-        <NomDuRestaurant />
-      </div>
-      <div class="text-center py-16">
-        <BoutonReservation />
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-2 bg-white p-8">
-        <AdresseRestaurant />
-        <HorairesOuverture />
-      </div>
-    </div>
+  <section class="h-screen flex flex-col justify-end p-16 bg-cover bg-center text-ocre bg-fond-jeanjean">
+    <!--    <NomDuRestaurant class="place-self-start" />-->
+    <InfosPratiques />
   </section>
 </template>
 
 <script>
-import AdresseRestaurant from '~/components/Molecule/Adresse'
-import HorairesOuverture from '~/components/Molecule/HorairesOuverture'
-import BoutonReservation from '~/components/Molecule/BoutonReservation'
 import NomDuRestaurant from '~/components/Atom/NomDuRestaurant'
+import InfosPratiques from '@/components/Organism/InfosPratiques'
+
 export default {
   name: 'EnteteAvecReservation',
-  components: { NomDuRestaurant, BoutonReservation, HorairesOuverture, AdresseRestaurant }
+  components: { InfosPratiques, NomDuRestaurant }
 }
 </script>

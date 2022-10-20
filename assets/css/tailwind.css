@@ -13,3 +13,28 @@
   src: url('~assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('ttf'),
   url('~assets/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('ttf');
 }
+
+@font-face {
+  font-family: DMSerifDisplay;
+  font-weight: 400;
+  src: url('~assets/fonts/DMSerifDisplay-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-family: Lora;
+  font-weight: 400;
+  src: url('~assets/fonts/Lora-VariableFont_wght.ttf') format('ttf')
+}
+
+@font-face {
+  font-family: Nunito;
+  font-weight: 400;
+  src: url('~assets/fonts/NunitoSans-Regular.ttf') format('ttf')
+}
+
+@font-face {
+  font-family: DMSerifDisplay;
+  font-weight: 400;
+  src: url('~assets/fonts/DMSerifDisplay-Italic.ttf') format('ttf');
+  font-style: italic;
+}

@@ -1,7 +1,5 @@
 <template>
-  <h1 class="text-5xl drop-shadow text-slate-50">
-    JeanJean
-  </h1>
+  <img src="/photos/logo.png">
 </template>
 
 <script>
