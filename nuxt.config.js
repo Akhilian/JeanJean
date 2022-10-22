@@ -1,17 +1,38 @@
+/*
+
+<meta name="twitter:card" content="summary_large_image">
+
+<!--  Non-Essential, But Recommended -->
+
+<meta name="twitter:image:alt" content="Alt text for image">
+*/
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'chezjeanjean',
+    title: 'Chez jeanjean - Bistrot de saison',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Jean Jean, c\'est bistrot moderne et à l\'ambiance chaleureuse. \n' +
+          'Avec un menu rythmé par les saisons, les plats sont conçus sous vos yeux à partir de produits bruts.'
+      },
+      { name: 'og:title', content: 'JeanJean, bistrot moderne au coeur du quartier garibaldi' },
+      { name: 'og:type', content: 'website' },
+      {
+        name: 'og:description',
+        content: 'Jean Jean, c\'est bistrot moderne et à l\'ambiance chaleureuse. \n' +
+          'Avec un menu rythmé par les saisons, les plats sont conçus sous vos yeux à partir de produits bruts.'
+      },
+      { name: 'og:site_name', content: 'JeanJean' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
