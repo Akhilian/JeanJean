@@ -10,7 +10,7 @@
 import Plat from '~/components/Molecule/Plat'
 
 export default {
-  name: 'Menu',
+  name: 'LaCarte',
   components: { Plat }
 }
 </script>

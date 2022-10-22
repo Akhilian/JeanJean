@@ -8,6 +8,10 @@
 <script>
 export default {
   name: 'Plat',
-  props: ['nom', 'prix', 'description']
+  props: {
+    nom: { type: String, required: true },
+    prix: { type: String, required: true },
+    description: { type: String, required: true }
+  }
 }
 </script>

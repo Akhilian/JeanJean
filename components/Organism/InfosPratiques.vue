@@ -6,7 +6,6 @@
 </template>
 <script>
 import AdresseRestaurant from '@/components/Molecule/Adresse'
-import BoutonReservation from '@/components/Molecule/BoutonReservation'
 import HorairesOuverture from '@/components/Molecule/HorairesOuverture'
 
 export default {
