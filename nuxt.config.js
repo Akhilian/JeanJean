@@ -27,6 +27,7 @@ export default {
       },
       { name: 'og:title', content: 'JeanJean, bistrot moderne au coeur du quartier garibaldi' },
       { name: 'og:type', content: 'website' },
+      { name: 'og:image', content: '/bg-jeanjean.webp' },
       {
         name: 'og:description',
         content: 'Jean Jean, c\'est bistrot moderne et à l\'ambiance chaleureuse. \n' +
