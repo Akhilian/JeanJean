@@ -7,6 +7,7 @@
       <Separation class="bg-brun" />-->
       <div class="p-8">
         <DecouvrirRestaurant />
+        <HorairesOuverture />
         <!--        <Menu class="grow" />-->
       </div>
     </div>
@@ -19,9 +20,10 @@ import Menu from '~/components/Organism/Menu.vue'
 import Description from '~/components/Organism/Description.vue'
 import Separation from '~/components/Molecule/Separation.vue'
 import DecouvrirRestaurant from '~/components/Molecule/DecouvrirRestaurant.vue'
+import HorairesOuverture from '~/components/Molecule/HorairesOuverture.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
-  components: { DecouvrirRestaurant, Separation, Description, Menu }
+  components: { HorairesOuverture, DecouvrirRestaurant, Separation, Description, Menu }
 })
 </script>

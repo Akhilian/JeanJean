@@ -33,6 +33,18 @@
 }
 
 @font-face {
+  font-family: Nunito;
+  font-weight: 700;
+  src: url('~assets/fonts/NunitoSans-SemiBold.ttf') format('ttf')
+}
+
+@font-face {
+  font-family: Cantata;
+  /*font-weight: 400;*/
+  src: url('~assets/fonts/CantataOne-Regular.ttf') format('ttf')
+}
+
+@font-face {
   font-family: DMSerifDisplay;
   font-weight: 400;
   src: url('~assets/fonts/DMSerifDisplay-Italic.ttf') format('ttf');

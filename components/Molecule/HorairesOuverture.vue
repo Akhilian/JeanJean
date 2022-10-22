@@ -1,8 +1,10 @@
 <template>
-  <div class="text-center">
-    7h – 10h30 breakfast <br>
-    12h – 14h lunch <br>
-    18h30 – 23h00 dinner
+  <div class="text-xl md:text-3xl text-center mt-8 bg-brun">
+    <div class="relative -top-4">
+           7h – 10h30<br>
+        12h – 14h  <br>
+      18h30 – 23h00
+    </div>
   </div>
 </template>
 
