@@ -3,7 +3,7 @@ export default {
     extend: {
       backgroundImage: {
         'fond-header': "url('/bg-header.jpg')",
-        'fond-jeanjean': "url('/bg-jeanjean.jpg')"
+        'fond-jeanjean': "url('/bg-jeanjean.webp')"
       },
       fontFamily: {
         nunito: ['Nunito'],
