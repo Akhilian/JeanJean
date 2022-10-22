@@ -6,11 +6,9 @@ export default {
         'fond-jeanjean': "url('/bg-jeanjean.jpg')"
       },
       fontFamily: {
-        playfair: ['PlayfairDisplay'],
-        dm: ['DMSerifDisplay'],
-        lora: ['Lora'],
         nunito: ['Nunito'],
-        cantata: ['Cantata']
+        cantata: ['Cantata'],
+        fraunces: ['Fraunces']
       },
       colors: {
         ocre: '#EBEAEA',

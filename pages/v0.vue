@@ -1,5 +1,5 @@
 <template>
-  <div class="font-nunito bg-ocre">
+  <div class="bg-ocre">
     <div class="grid md:grid-flow-col">
       <Header />
       <Separation class="bg-vert" />

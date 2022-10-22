@@ -1,10 +1,10 @@
 <template>
-  <div class="font-cantata bg-ocre text-vert">
+  <div class="bg-ocre text-vert font-fraunces">
     <div class="flex flex-col-reverse md:flex-row border-solid border-t-8 border-white h-screen md:p-8">
       <div class="basis-1/3 bg-cover bg-fond-jeanjean bg-right-top border-solid md:border-8 shadow-xl" />
       <div class="basis-2/3 text-center p-8 grid gap-8 max-w-xl m-auto">
         <img src="/photos/logo.png" alt="JeanJean" class="h-44 md:h-60 m-auto">
-        <h2 class="font-cantata font-semibold text-3xl tracking-wide leading-6">
+        <h2 class="font-semibold text-3xl tracking-wide leading-6">
           découvrez un bistrot moderne, au cœur du quartier Garibaldi.
         </h2>
         <h3 class="font-medium text-2xl text-xl">
