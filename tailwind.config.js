@@ -13,6 +13,7 @@ export default {
       colors: {
         ocre: '#EBEAEA',
         brun: '#DFD0BF',
+        brunFonce: '#b14829',
         vertclair: '#62815C',
         vert: '#3B4E43'
       }

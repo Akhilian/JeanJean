@@ -1,21 +1,26 @@
 <template>
-  <div class="bg-ocre text-vert font-fraunces">
-    <div class="flex flex-col-reverse md:flex-row border-solid border-t-8 border-white h-screen md:p-8">
-      <div class="basis-1/3 bg-cover bg-fond-jeanjean bg-right-top border-solid md:border-8 shadow-xl" />
-      <div class="basis-2/3 text-center p-8 grid gap-8 max-w-xl m-auto">
-        <img src="/photos/logo.png" alt="JeanJean" class="h-44 md:h-60 m-auto">
-        <h2 class="font-semibold text-3xl tracking-wide leading-6">
-          découvrez un bistrot moderne, au cœur du quartier Garibaldi.
-        </h2>
-        <h3 class="font-medium text-2xl text-xl">
-          Avec un menu rythmé par les saisons, les plats sont conçus sous vos yeux à partir de produits bruts.
-        </h3>
-        <HorairesOuverture />
-        <div>
-          Reserver
-          <a href="tel:+33102030405">Par téléphone</a>
-          <a href="mailto:xxxx@xx.xx">Par email</a>
-        </div>
+  <div class="text-vert font-fraunces bg-ocre">
+    <div
+      class="
+      flex flex-col md:flex-row
+      h-screen
+      border-solid border-t-8 border-white
+      "
+    >
+      <!-- Bouton de réservation -->
+      <BoutonReservation />
+
+      <!-- Colonnes -->
+      <div class="basis-1/2 p-8 bg-ocre">
+        <DescriptionBistrot />
+      </div>
+      <div
+        class="
+        basis-1/2 py-24 md:py-0
+        grid justify-items-start
+        bg-cover bg-fond-jeanjean bg-right-top"
+      >
+        <AdresseEtDetails />
       </div>
     </div>
   </div>
@@ -23,10 +28,12 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import HorairesOuverture from '~/components/Molecule/HorairesOuverture.vue'
+import BoutonReservation from '~/components/Molecule/BoutonReservation.vue'
+import AdresseEtDetails from '~/components/Molecule/AdresseEtDetails.vue'
+import DescriptionBistrot from '~/pages/DescriptionBistrot.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
-  components: { HorairesOuverture }
+  components: { DescriptionBistrot, AdresseEtDetails, BoutonReservation }
 })
 </script>
