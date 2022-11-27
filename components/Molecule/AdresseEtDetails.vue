@@ -22,7 +22,7 @@
 
       <p class="font-semibold">
         01.82.02.26.83<br>
-        contact@jeanjean.fr
+        contact@jeanjeanrestaurant.fr
       </p>
     </div>
   </div>

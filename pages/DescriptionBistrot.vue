@@ -2,7 +2,7 @@
   <sec class="text-center grid gap-8">
     <img src="/photos/logo.png" alt="JeanJean" class="h-44 md:h-60 m-auto">
     <h2 class="font-semibold text-3xl tracking-wide leading-6">
-      découvrez un bistrot moderne, au cœur du quartier Garibaldi.
+      Découvrez un bistrot moderne, au cœur du quartier Garibaldi.
     </h2>
     <p class="font-medium text-2xl text-xl">
       Un lieu convivial et généreux en salle comme dans l’assiette.
