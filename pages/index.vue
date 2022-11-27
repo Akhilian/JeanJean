@@ -7,12 +7,12 @@
       border-solid border-t-8 border-white
       "
     >
-      <!-- Bouton de réservation -->
-      <BoutonReservation />
-
       <!-- Colonnes -->
-      <div class="basis-1/2 p-8 bg-ocre">
-        <DescriptionBistrot />
+      <div class="basis-1/2 bg-ocre flex flex-col">
+        <DescriptionBistrot class="p-8" />
+
+        <!-- Bouton de réservation -->
+        <BoutonReservation />
       </div>
       <div
         class="
