@@ -1,37 +1,40 @@
 <template>
   <div class="p-8 bg-brunFonce text-white flex flex-col gap-4 md:gap-8">
     <div>
-      <p class="font-sans border-b">
+      <TitreInfosPratiques>
         Adresse
-      </p>
-
-      <p class="font-semibold">
+      </TitreInfosPratiques>
+      <DetailsInfosPratiques>
         37 Avenue Du Capitaine Glarner<br>
         93400 Saint-Ouen Sur Seine
-      </p>
+      </DetailsInfosPratiques>
     </div>
     <div>
-      <p class="font-sans border-b">
+      <TitreInfosPratiques>
         Horaires
-      </p>
-      <p class="font-semibold">
+      </TitreInfosPratiques>
+      <DetailsInfosPratiques>
         Du lundi au vendredi<br>
         12h-14h30 / 18h-22h00
-      </p>
+      </DetailsInfosPratiques>
     </div>
     <div>
-      <p class="font-sans border-b">
+      <TitreInfosPratiques>
         Contact
-      </p>
-      <p class="font-semibold">
+      </TitreInfosPratiques>
+      <DetailsInfosPratiques>
         01.82.02.26.83<br>
         contact@jeanjeanrestaurant.fr
-      </p>
+      </DetailsInfosPratiques>
     </div>
   </div>
 </template>
 <script lang="ts">
+import TitreInfosPratiques from '~/components/Molecule/TitreInfosPratiques.vue'
+import DetailsInfosPratiques from '~/components/Molecule/DetailsInfosPratiques.vue'
+
 export default {
-  name: 'AdresseEtDetails'
+  name: 'AdresseEtDetails',
+  components: { DetailsInfosPratiques, TitreInfosPratiques }
 }
 </script>

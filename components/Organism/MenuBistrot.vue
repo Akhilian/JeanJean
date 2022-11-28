@@ -1,5 +1,5 @@
 <template>
-  <a class="text-center text-white max-w-sm p-8 pt-0" href="/menu.pdf" download>
+  <a ref="" class="text-center text-white max-w-sm p-8 pt-0" href="/menu.pdf" target="_blank" rel="noreferrer noopener">
     <div class="bg-vert rounded-full p-4 pr-8 gap-4 flex items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
