@@ -10,6 +10,7 @@
       <!-- Colonnes -->
       <div class="basis-1/2 bg-ocre flex flex-col">
         <DescriptionBistrot class="p-8" />
+        <MenuBistrot />
 
         <!-- Bouton de réservation -->
         <BoutonReservation />
@@ -30,10 +31,11 @@
 import Vue from 'vue'
 import BoutonReservation from '~/components/Molecule/BoutonReservation.vue'
 import AdresseEtDetails from '~/components/Molecule/AdresseEtDetails.vue'
-import DescriptionBistrot from '~/pages/DescriptionBistrot.vue'
+import DescriptionBistrot from '~/components/Organism/DescriptionBistrot.vue'
+import MenuBistrot from '~/components/Organism/MenuBistrot.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
-  components: { DescriptionBistrot, AdresseEtDetails, BoutonReservation }
+  components: { DescriptionBistrot, AdresseEtDetails, BoutonReservation, MenuBistrot }
 })
 </script>
