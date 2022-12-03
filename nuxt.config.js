@@ -12,7 +12,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Chez jeanjean - Bistrot de saison',
+    title: 'Jeanjean - Bistrot de saison',
     htmlAttrs: {
       lang: 'fr'
     },
