@@ -1,6 +1,6 @@
 <template>
   <div class="fixed md:relative bottom-0 left-0 right-0 text-center pb-8">
-    <a href="mailto:contact@jeanjeanrestaurant.fr" class="bg-brunFonce text-3xl px-8 py-2 text-white rounded-full drop-shadow-lg">Réserver</a>
+    <a href="https://reservation.laddition.com/booking/jeanjeanrestaurant#/date" class="bg-brunFonce text-3xl px-8 py-2 text-white rounded-full drop-shadow-lg">Réserver</a>
   </div>
 </template>
 
