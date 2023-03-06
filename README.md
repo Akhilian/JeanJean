@@ -1,5 +1,17 @@
-# chezjeanjean
+# JeanJean
 
+## Mettre à jour le menu
+
+1. Se rendre sur le dossier [main/static](https://github.com/Akhilian/JeanJean/tree/main/static). 
+2. Uploader un fichier ``menu.pdf`` (⚠️ le nom du fichier doit respecter ce nom) via le bouton ``Upload files``. 
+
+![upload_files.png](documentation%2Fupload_files.png)
+
+3. Glisser le nouveau fichier sur la zone "Drag File"
+4. En dessous de "commit files", remplir le champ avec le nom du nouveau menu (exemple: Menu du 6 mars)
+5. Cliquer sur "Commit changes". Le menu sera en ligne d'ici à quelques secondes. 
+
+![save_file.png](documentation%2Fsave_file.png)
 ## Build Setup
 
 ```bash
