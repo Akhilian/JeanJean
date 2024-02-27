@@ -15,7 +15,7 @@
       </TitreInfosPratiques>
       <DetailsInfosPratiques>
         Du lundi au vendredi<br>
-        12h-14h30 / 18h-22h00
+        12h-14h30 / 19h-22h00
       </DetailsInfosPratiques>
     </div>
     <div>
